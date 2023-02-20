@@ -9,7 +9,7 @@ jobs:
   Debug:
     runs-on: ubuntu-latest
     outputs:
-      teamids: ${{ steps.files.outputs.added_modified }} # array of files changed by commit who triggered the workflow
+      filenames: ${{ steps.files.outputs.added_modified }} # array of files changed by commit who triggered the workflow
     steps:
       - name: Get Files that Changed
         id: files
@@ -22,7 +22,7 @@ jobs:
     strategy:
       #max-parallel: 1
       matrix:
-        changed-file: ${{ steps.files.outputs.added_modified }}
+        changed-file: ${{fromJSON(needs.Debug.outputs.filenames)}}
     runs-on: ubuntu-latest
     steps:
           - name: Name the file
