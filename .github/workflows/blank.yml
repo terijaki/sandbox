@@ -17,7 +17,7 @@ jobs:
 
 
   Do-Something-For-Each:
-    needs: Get-Teams
+    needs: Debug
     continue-on-error: true # if one team fails, the flow should continue
     strategy:
       #max-parallel: 1
