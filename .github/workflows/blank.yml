@@ -6,11 +6,11 @@ on:
       - ".github/workflows/**"
 
 jobs:
-  build:
+  debug:
     runs-on: ubuntu-latest
     steps:
 
       - name: Run a one-line script
         run: |
-          echo "${{ github.event.action }}"
+          echo "${{ github.event }}"
 
