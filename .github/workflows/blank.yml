@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Get Files that Changed
         id: files
-        uses: jitterbit/get-changed-files
+        uses: jitterbit/get-changed-files@v1
 
 
   Do-Something-For-Each:
