@@ -1,0 +1,110 @@
+{
+    "sha": "c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+    "node_id": "C_kwDOJAM3BdoAKGM0ZDgwNzkxMDQyZTRkYzE1Y2QzM2E1YjNkOWY3MDdjYmNjNjVjOWE",
+    "commit": {
+        "author": {
+            "name": "Terijaki",
+            "email": "590522+terijaki@users.noreply.github.com",
+            "date": "2023-02-20T16:13:27Z"
+        },
+        "committer": {
+            "name": "Terijaki",
+            "email": "590522+terijaki@users.noreply.github.com",
+            "date": "2023-02-20T16:13:27Z"
+        },
+        "message": "mothertrucker",
+        "tree": {
+            "sha": "80f8cace73a2606bbae1f6e935816e7fbf3932b5",
+            "url": "https://api.github.com/repos/terijaki/sandbox/git/trees/80f8cace73a2606bbae1f6e935816e7fbf3932b5"
+        },
+        "url": "https://api.github.com/repos/terijaki/sandbox/git/commits/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+        "comment_count": 0,
+        "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null
+        }
+    },
+    "url": "https://api.github.com/repos/terijaki/sandbox/commits/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+    "html_url": "https://github.com/terijaki/sandbox/commit/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+    "comments_url": "https://api.github.com/repos/terijaki/sandbox/commits/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a/comments",
+    "author": {
+        "login": "terijaki",
+        "id": 590522,
+        "node_id": "MDQ6VXNlcjU5MDUyMg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/590522?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/terijaki",
+        "html_url": "https://github.com/terijaki",
+        "followers_url": "https://api.github.com/users/terijaki/followers",
+        "following_url": "https://api.github.com/users/terijaki/following{/other_user}",
+        "gists_url": "https://api.github.com/users/terijaki/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/terijaki/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/terijaki/subscriptions",
+        "organizations_url": "https://api.github.com/users/terijaki/orgs",
+        "repos_url": "https://api.github.com/users/terijaki/repos",
+        "events_url": "https://api.github.com/users/terijaki/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/terijaki/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "committer": {
+        "login": "terijaki",
+        "id": 590522,
+        "node_id": "MDQ6VXNlcjU5MDUyMg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/590522?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/terijaki",
+        "html_url": "https://github.com/terijaki",
+        "followers_url": "https://api.github.com/users/terijaki/followers",
+        "following_url": "https://api.github.com/users/terijaki/following{/other_user}",
+        "gists_url": "https://api.github.com/users/terijaki/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/terijaki/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/terijaki/subscriptions",
+        "organizations_url": "https://api.github.com/users/terijaki/orgs",
+        "repos_url": "https://api.github.com/users/terijaki/repos",
+        "events_url": "https://api.github.com/users/terijaki/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/terijaki/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "parents": [
+        {
+            "sha": "ebc2fd876126e992564af36688379f1b6db4312e",
+            "url": "https://api.github.com/repos/terijaki/sandbox/commits/ebc2fd876126e992564af36688379f1b6db4312e",
+            "html_url": "https://github.com/terijaki/sandbox/commit/ebc2fd876126e992564af36688379f1b6db4312e"
+        }
+    ],
+    "stats": {
+        "total": 3,
+        "additions": 2,
+        "deletions": 1
+    },
+    "files": [
+        {
+            "sha": "2e65efe2a145dda7ee51d1741299f848e5bf752e",
+            "filename": "dummy.html",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 0,
+            "changes": 1,
+            "blob_url": "https://github.com/terijaki/sandbox/blob/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a/dummy.html",
+            "raw_url": "https://github.com/terijaki/sandbox/raw/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a/dummy.html",
+            "contents_url": "https://api.github.com/repos/terijaki/sandbox/contents/dummy.html?ref=c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+            "patch": "@@ -0,0 +1 @@\n+a\n\\ No newline at end of file"
+        },
+        {
+            "sha": "ea78b250b607ea8a76643ebe0a95a3ec6ed1a9e6",
+            "filename": "message.html",
+            "status": "modified",
+            "additions": 1,
+            "deletions": 1,
+            "changes": 2,
+            "blob_url": "https://github.com/terijaki/sandbox/blob/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a/message.html",
+            "raw_url": "https://github.com/terijaki/sandbox/raw/c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a/message.html",
+            "contents_url": "https://api.github.com/repos/terijaki/sandbox/contents/message.html?ref=c4d80791042e4dc15cd33a5b3d9f707cbcc65c9a",
+            "patch": "@@ -1 +1 @@\n-hub\n\\ No newline at end of file\n+huba\n\\ No newline at end of file"
+        }
+    ]
+}
