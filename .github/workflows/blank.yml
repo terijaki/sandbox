@@ -21,5 +21,8 @@ jobs:
           echo "Github Event Before: ${{ github.event.before }}"
           echo "Github Event Commits: ${{ github.event.commits }}"
           echo "Github Event Compare: ${{ github.event.compare }}"
-          echo "Github Event After: ${{ github.event.after }}"
+          for entry in "${{ github.event.commits }}"
+            do
+              echo "$entry"
+            done
 
