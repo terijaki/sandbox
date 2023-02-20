@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Get Files that Changed
         id: files
-        uses: jitterbit/get-changed-files@v1
+        uses: masesgroup/retrieve-changed-files@v2
         with:
           format: 'json'
 
