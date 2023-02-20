@@ -17,4 +17,9 @@ jobs:
           echo "Github Event Path: ${{ github.event_path }}"
           echo "Github Event Ref: ${{ github.event.ref }}"
           echo "Github Event Base-Ref: ${{ github.event.base_ref }}"
+          echo "Github Event After: ${{ github.event.after }}"
+          echo "Github Event Before: ${{ github.event.before }}"
+          echo "Github Event Commits: ${{ github.event.commits }}"
+          echo "Github Event Compare: ${{ github.event.compare }}"
+          echo "Github Event After: ${{ github.event.after }}"
 
