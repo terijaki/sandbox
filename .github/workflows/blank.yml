@@ -6,29 +6,25 @@ on:
       - ".github/workflows/**"
 
 jobs:
-  debug:
+  Debug:
+    runs-on: ubuntu-latest
+    outputs:
+      teamids: ${{ steps.files.outputs.added_modified }} # array of files changed by commit who triggered the workflow
+    steps:
+      - name: Get Files that Changed
+        id: files
+        uses: jitterbit/get-changed-files
+
+
+  Do-Something-For-Each:
+    needs: Get-Teams
+    continue-on-error: true # if one team fails, the flow should continue
+    strategy:
+      #max-parallel: 1
+      matrix:
+        changed-file: ${{ steps.files.outputs.added_modified }}
     runs-on: ubuntu-latest
     steps:
-
-      - name: Events
-        run: |
-          echo "Github Event: ${{ github.event }}"
-          echo "Github Event Name: ${{ github.event_name }}"
-          echo "Github Event Path: ${{ github.event_path }}"
-          echo "Github Event Ref: ${{ github.event.ref }}"
-          echo "Github Event Base-Ref: ${{ github.event.base_ref }}"
-          echo "Github Event After: ${{ github.event.after }}"
-          echo "Github Event Before: ${{ github.event.before }}"
-          echo "Github Event Commits: ${{ github.event.commits }}"
-          echo "Github Event Compare: ${{ github.event.compare }}"
-          for entry in "${{ github.event.commits }}"
-            do
-              echo "$entry"
-            done
-
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-      - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            echo "Do something with this ${changed_file}."
-          done
+          - name: Name the file
+            run: |
+                echo "Change detected for: ${{matrix.changed-file}}"
